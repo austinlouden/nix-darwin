@@ -6,7 +6,7 @@ let
 in
 {
   system.defaults.NSGlobalDomain.InitialKeyRepeat = 12;
-  system.defaults.NSGlobalDomain.KeyRepeat = 0;
+  system.defaults.NSGlobalDomain.KeyRepeat = 1;
 
   system.defaults.finder.AppleShowAllExtensions = true;
   system.defaults.finder.FXEnableExtensionChangeWarning = false;
@@ -23,11 +23,11 @@ in
     fastarcheyosx
     scmpuff
     highlight
-
     asciinema
     fzf
     gettext
     git
+    git-lfs
     ripgrep
     jq
     arcanist
@@ -35,7 +35,6 @@ in
     coreutils
     go
     fasd
-
     nix-repl
     nox
   ];
